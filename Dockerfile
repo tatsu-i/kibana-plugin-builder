@@ -65,7 +65,7 @@ RUN set -ex; \
 
 ENV PATH=${PATH}:${JAVA_HOME}/bin:/plugin/kibana/bin:${PATH}
 
-ARG VERSION=7.0.0
+ARG VERSION=7.1.1
 
 COPY node-prune.sh /usr/bin/node-prune
 RUN echo "===> Installing elasticdump" \
